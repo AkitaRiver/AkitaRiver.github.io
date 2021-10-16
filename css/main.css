@@ -943,7 +943,7 @@ img.p1 {
 	.description {
 	flex-direction: column;
 	}
-	.p1 {
+	img.p1 {
 		width: 80%;
 		margin: 0 auto;
 		margin-bottom: 20px;
