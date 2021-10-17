@@ -853,6 +853,10 @@ img.p1 {
 	.header {
 	background: url('../img/header-bg1.png') no-repeat center top / cover;
 	}
+	.wrapper{
+  -webkit-backdrop-filter: blur(10px);
+}
+}
 @media screen and (max-width: 991px) {
 	
 	.menu-btn {
