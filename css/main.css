@@ -844,15 +844,19 @@ img.p1 {
 	section {
 		padding-top: 50px;
 	}
-}
-
-@media screen and (max-width: 1030px) {
 	body {
 		background-color: #2E34B2;
 	}
 	.header {
 	background: url('../img/header-bg1.png') no-repeat center top / cover;
 	}
+	.wrapper {
+		-webkit-backdrop-filter: blur(10px);
+	}
+}
+
+@media screen and (max-width: 1030px) {
+	
 }
 @media screen and (max-width: 991px) {
 	
